@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "Buenos días", "Hola, ¿en qué puedo ayudarte?"],
+      "responses": ["¡Hola! Bienvenido al chatbot de búsqueda de trabajo."]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adiós", "Hasta luego", "Chao"],
+      "responses": ["¡Gracias por usar nuestro chatbot! ¡Buena suerte en tu búsqueda de trabajo!"]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["¿Cómo puedo usar este chatbot?", "Necesito ayuda", "¿Puedes explicarme cómo funciona esto?"],
+      "responses": ["Este chatbot te ayuda a encontrar trabajo. Simplemente pregúntame sobre empleos que te interesen o envíame tu currículum para que lo revise."]
+    }
+  ]
+}
+
+
