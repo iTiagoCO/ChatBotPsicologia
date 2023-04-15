@@ -2,20 +2,207 @@
   "intents": [
     {
       "tag": "saludo",
-      "patterns": ["Hola", "Buenos días", "Hola, ¿en qué puedo ayudarte?"],
-      "responses": ["¡Hola! Bienvenido al chatbot de búsqueda de trabajo."]
+      "patterns": [
+        "Hola, ¿cómo estás?",
+        "Buenas tardes, ¿en qué puedo ayudarte hoy?",
+        "¡Hola! Soy nuevo por aquí, ¿qué servicios ofreces?",
+        "Hola, ¿eres un terapeuta real o solo un chatbot?",
+        "Buenos días, ¿puedes ayudarme con mi ansiedad?",
+        "Hola, ¿cómo puedo saber si necesito ayuda psicológica?",
+        "Hola, ¿qué tipo de terapia ofreces?",
+        "Hola, ¿estás disponible para hablar ahora?",
+        "Hola, ¿cómo puedo hacer frente al estrés en el trabajo?",
+        "Hola, ¿cómo puedo mejorar mi autoestima?"
+      ],
+      "responses": [
+        "Hola, estoy bien, gracias. ¿Y tú cómo estás?",
+        "Estoy aquí para ayudarte con cualquier problema que tengas. ¿Qué te preocupa?",
+        "Ofrezco una variedad de servicios de terapia para ayudarte con tus problemas. ¿Quieres saber más?",
+        "Soy un chatbot diseñado para ayudarte con tus problemas de salud mental. Si necesitas un terapeuta real, puedo recomendarte algunos.",
+        "Por supuesto, puedo ayudarte con la ansiedad. ¿Quieres hablar más sobre cómo te estás sintiendo?",
+        "Si te estás sintiendo abrumado o triste, es posible que desees buscar ayuda psicológica. ¿Te gustaría hablar más sobre tus síntomas?",
+        "Ofrezco una variedad de terapias, como la terapia cognitivo-conductual y la terapia interpersonal. ¿Te gustaría saber más sobre estas opciones?",
+        "Sí, estoy disponible para hablar ahora. ¿En qué puedo ayudarte?",
+        "Para hacer frente al estrés en el trabajo, es importante establecer límites saludables y tomarse un tiempo para relajarse. ¿Te gustaría hablar más sobre cómo hacerlo?",
+        "Mejorar la autoestima puede ser un proceso largo, pero hay muchas técnicas que pueden ayudar. ¿Quieres saber más sobre cómo mejorar tu autoestima?"
+      ]
     },
     {
-      "tag": "despedida",
-      "patterns": ["Adiós", "Hasta luego", "Chao"],
-      "responses": ["¡Gracias por usar nuestro chatbot! ¡Buena suerte en tu búsqueda de trabajo!"]
+      "tag": "ansiedad",
+      "patterns": [
+        "Estoy muy ansioso, ¿puedes ayudarme?",
+        "¿Cómo puedo manejar mi ansiedad?",
+        "Tengo ataques de pánico frecuentes, ¿qué puedo hacer?",
+        "Siento que la ansiedad me está controlando, ¿qué hago?",
+        "¿Puedes recomendarme técnicas para controlar mi ansiedad?",
+        "¿Qué tratamientos son efectivos para la ansiedad?",
+        "Siento que la ansiedad me impide hacer cosas que quiero, ¿cómo puedo superarla?",
+        "¿Cómo puedo saber si lo que siento es ansiedad o algo más?",
+        "¿Puedes ayudarme a entender por qué tengo tanta ansiedad?",
+        "¿Es normal tener ansiedad a diario?"
+      ],
+      "responses": [
+        "Claro, podemos trabajar juntos para encontrar formas de manejar tu ansiedad.",
+        "Hay muchas técnicas que pueden ayudar con la ansiedad, como la meditación y la respiración profunda. ¿Te gustaría probar alguna?",
+        "Los ataques de pánico pueden ser aterradores, pero hay tratamientos efectivos disponibles. ¿Te gustaría hablar sobre tus opciones?",
+        "La ansiedad puede ser difícil de manejar, pero juntos podemos trabajar para ayudarte a controlarla.",
+        "Hay muchas técnicas que pueden ayudar a controlar la ansiedad, como el mindfulness y la terapia cognitivo-conductual. ¿Te gustaría explorar estas opciones?",
+        "Hay muchos tratamientos efectivos para la ansiedad, como los medicamentos y la terapia. ¿Quieres saber más sobre estas opciones?",
+        "La ansiedad puede ser limitante, pero hay muchas formas de superarla. ¿Te gustaría hablar más sobre cómo hacerlo?",
+        "Es posible que necesites una evaluación para determinar si lo que sientes es ansiedad o algo más. ¿Te gustaría hablar más sobre tus síntomas?",
+        "La ansiedad puede ser causada por muchas cosas, como el estrés y los traumas pasados. Podemos trabajar juntos para entender las causas de tu ansiedad.",
+        "La ansiedad es un problema de salud mental común. No estás solo en esto y hay muchas formas de obtener ayuda."
+      ]
     },
     {
-      "tag": "ayuda",
-      "patterns": ["¿Cómo puedo usar este chatbot?", "Necesito ayuda", "¿Puedes explicarme cómo funciona esto?"],
-      "responses": ["Este chatbot te ayuda a encontrar trabajo. Simplemente pregúntame sobre empleos que te interesen o envíame tu currículum para que lo revise."]
+      "tag": "depresión",
+      "patterns": [
+        "Me siento muy triste todo el tiempo, ¿puede ayudarme?",
+        "¿Cómo puedo superar la depresión?",
+        "No tengo energía y me siento abatido todo el tiempo, ¿qué puedo hacer?",
+        "Siento que no tengo motivación para hacer nada, ¿cómo puedo recuperarla?",
+        "¿Cuáles son los síntomas de la depresión?",
+        "¿Cómo puedo saber si lo que siento es depresión o simplemente tristeza?",
+        "¿Puedo superar la depresión sin medicamentos?",
+        "¿Cómo puedo ayudar a un amigo o ser querido que está deprimido?",
+        "¿La terapia ayuda con la depresión?",
+        "¿Cómo puedo prevenir que la depresión vuelva a afectarme?"
+      ],
+      "responses": [
+        "Claro, puedo ayudarte a encontrar formas de superar la depresión.",
+        "La depresión puede ser una enfermedad difícil de superar, pero hay muchas opciones de tratamiento disponibles. ¿Te gustaría explorar algunas de ellas?",
+        "La falta de energía y la sensación de estar abatido son síntomas comunes de la depresión. ¿Quieres hablar sobre cómo puedes superarlos?",
+        "Recuperar la motivación puede ser difícil cuando estás deprimido, pero hay técnicas que pueden ayudar. ¿Te gustaría probar algunas?",
+        "Los síntomas de la depresión incluyen tristeza persistente, falta de energía y pérdida de interés en actividades que antes te gustaban. ¿Experimentas algunos de estos síntomas?",
+        "La depresión y la tristeza son emociones diferentes. Si experimentas síntomas como pérdida de interés, problemas de sueño y cambios de apetito junto con tristeza persistente, es posible que estés deprimido.",
+        "Hay muchas formas de tratar la depresión sin medicamentos, como la terapia y los cambios en el estilo de vida. ¿Quieres hablar sobre algunas de estas opciones?",
+        "Puede ser difícil ayudar a alguien que está deprimido, pero escuchar y ofrecer apoyo puede marcar una gran diferencia. ¿Quieres hablar más sobre cómo puedes ayudar a tu ser querido?",
+        "La terapia es un tratamiento efectivo para la depresión y puede ayudarte a desarrollar habilidades para manejar mejor tus síntomas. ¿Quieres saber más sobre cómo funciona la terapia?",
+        "Hay cosas que puedes hacer para prevenir que la depresión vuelva a afectarte, como practicar la autocompasión y el autocuidado. ¿Quieres explorar estas opciones?"
+      ]
+    },
+    {
+      "tag": "autoestima",
+      "patterns": [
+        "Siento que no soy lo suficientemente bueno, ¿qué puedo hacer?",
+        "¿Cómo puedo mejorar mi autoestima?",
+        "Siento que siempre me comparo con los demás, ¿cómo puedo dejar de hacerlo?",
+        "¿Cómo puedo aceptarme tal como soy?",
+        "Siento que mi baja autoestima está afectando mis relaciones, ¿qué puedo hacer?",
+        "¿Qué causa la baja autoestima?",
+        "¿Puedo mejorar mi autoestima sin ayuda profesional?",
+        "¿Cómo puedo ser más amable conmigo mismo?",
+        "¿Cómo puedo dejar de preocuparme por lo que piensan los demás de mí?",
+        "¿Cómo puedo superar los sentimientos de vergüenza y culpa?"
+      ],
+      "responses": [
+        "Trabajar en la autoestima puede ser difícil, pero es posible. ¿Te gustaría explorar algunas formas de mejorarla?",
+        "Hay muchas cosas que puedes hacer para mejorar tu autoestima, desde la práctica de la autocompasión hasta la construcción de relaciones positivas. ¿Quieres hablar sobre algunas de estas opciones?",
+        "Compararnos con los demás es natural, pero también puede ser perjudicial para nuestra autoestima. ¿Quieres hablar sobre cómo puedes dejar de hacerlo?",
+        "Aceptar y amarse a uno mismo es un proceso que lleva tiempo y práctica, pero es posible. ¿Te gustaría explorar formas de hacerlo?",
+        "La baja autoestima puede afectar nuestras relaciones y nuestra calidad de vida en general. ¿Quieres hablar sobre cómo puedes mejorarla?",
+        "La baja autoestima puede tener muchas causas, desde experiencias pasadas hasta la presión social. ¿Quieres hablar sobre cómo identificar las causas de tu baja autoestima?",
+        "Es posible mejorar tu autoestima sin ayuda profesional, pero también puede ser útil buscar apoyo de un terapeuta o consejero. ¿Te gustaría hablar más sobre tus opciones?",
+        "Ser amable contigo mismo puede ser difícil, pero es una habilidad importante para desarrollar. ¿Quieres hablar sobre cómo puedes practicar la autocompasión?",
+        "Preocuparse por lo que piensan los demás de nosotros es común, pero también puede ser perjudicial para nuestra autoestima y nuestra felicidad. ¿Quieres hablar sobre cómo puedes dejar de hacerlo?",
+        "La vergüenza y la culpa pueden afectar nuestra autoestima y nuestra capacidad para disfrutar la vida. ¿Quieres hablar sobre cómo superar estos sentimientos?"
+      ]
+    },
+    {
+      "tag": "fobia",
+      "patterns": [
+        "Tengo miedo a las arañas, ¿cómo puedo superar mi fobia?",
+        "¿Cómo puedo saber si tengo una fobia?",
+        "Siento que mi fobia está afectando mi vida diaria, ¿qué puedo hacer?",
+        "¿Qué tratamientos están disponibles para las fobias?",
+        "¿Las fobias son comunes?",
+        "¿Puedo superar mi fobia sin ayuda profesional?",
+        "¿Cómo puedo ayudar a alguien con una fobia?",
+        "¿Qué debo hacer si mi fobia es muy intensa?",
+        "¿Cómo puedo evitar que mi fobia empeore?"
+      ],
+      "responses": [
+        "Las fobias pueden ser muy limitantes, pero también son tratables. ¿Te gustaría hablar sobre los diferentes tratamientos disponibles para las fobias?",
+        "Hay muchos síntomas que pueden indicar una fobia, desde el miedo intenso hasta la evitación de ciertas situaciones. ¿Quieres hablar sobre cómo saber si tienes una fobia?",
+        "Las fobias pueden afectar nuestra vida diaria de muchas maneras, desde limitar nuestras actividades hasta aumentar nuestro estrés. ¿Quieres hablar sobre cómo puedes manejar los efectos de tu fobia?",
+        "Hay varios tratamientos disponibles para las fobias, desde la terapia cognitivo-conductual hasta la terapia de exposición. ¿Te gustaría hablar sobre estos tratamientos?",
+        "Las fobias son comunes y afectan a muchas personas. No estás solo en esto. ¿Te gustaría hablar sobre cómo las fobias pueden afectar a diferentes personas de diferentes maneras?",
+        "Es posible superar una fobia sin ayuda profesional, pero también puede ser útil buscar apoyo de un terapeuta o consejero. ¿Te gustaría hablar más sobre tus opciones?",
+        "Ayudar a alguien con una fobia puede ser complicado, pero hay muchas formas de apoyar a alguien que está luchando con una fobia. ¿Quieres hablar sobre cómo puedes ayudar a alguien con una fobia?",
+        "Si tu fobia es muy intensa, es importante buscar ayuda profesional. ¿Te gustaría hablar sobre qué hacer si tu fobia está afectando gravemente tu vida?",
+        "Hay muchas cosas que puedes hacer para evitar que tu fobia empeore, desde evitar las situaciones desencadenantes hasta practicar la relajación. ¿Quieres hablar sobre cómo puedes prevenir que tu fobia empeore?"
+      ]
+    },
+    {
+      "tag": "trastornos alimentarios",
+      "patterns": [
+        "Siento que tengo una mala relación con la comida, ¿cómo puedo mejorarla?",
+        "¿Cómo puedo saber si tengo un trastorno alimentario?",
+        "¿Qué tratamientos están disponibles para los trastornos alimentarios?",
+        "¿Puedo superar un trastorno alimentario?",
+        "¿Cómo puedo ayudar a alguien con un trastorno alimentario?",
+        "¿Qué debo hacer si creo que tengo un trastorno alimentario?",
+        "¿Qué efectos tienen los trastornos alimentarios en el cuerpo?",
+        "¿Cómo puedo prevenir los trastornos alimentarios?",
+        "¿Cómo puedo manejar las recaídas durante la recuperación de un trastorno alimentario?"
+      ],
+      "responses": [
+        "Tener una mala relación con la comida puede ser difícil de manejar, pero hay muchas formas de mejorarla. ¿Te gustaría hablar sobre cómo mejorar tu relación con la comida?",
+        "Hay muchos síntomas que pueden indicar un trastorno alimentario, desde la obsesión con la comida hasta la evitación de ciertos alimentos. ¿Quieres hablar sobre cómo saber si tienes un trastorno alimentario?",
+        "Hay varios tratamientos disponibles para los trastornos alimentarios, desde la terapia cognitivo-conductual hasta la terapia nutricional. ¿Te gustaría hablar sobre estos tratamientos?",
+        "Sí, es posible superar un trastorno alimentario con el tratamiento adecuado y el apoyo. ¿Te gustaría hablar sobre cómo puedes comenzar tu camino hacia la recuperación?",
+        "Ayudar a alguien con un trastorno alimentario puede ser complicado, pero hay muchas formas de apoyar a alguien que está luchando con un trastorno alimentario. ¿Quieres hablar sobre cómo puedes ayudar a alguien con un trastorno alimentario?",
+        "Si crees que tienes un trastorno alimentario, es importante buscar ayuda profesional. ¿Quieres hablar sobre qué hacer si crees que tienes un trastorno alimentario?",
+        "Los trastornos alimentarios pueden tener muchos efectos en el cuerpo, desde la pérdida de peso hasta problemas digestivos. ¿Quieres hablar sobre cómo los trastornos alimentarios pueden afectar tu cuerpo?",
+        "Hay muchas cosas que puedes hacer para prevenir los trastornos alimentarios, desde evitar dietas extremas hasta buscar apoyo emocional. ¿Quieres hablar sobre cómo puedes prevenir los trastornos alimentarios?",
+        "Las recaídas son comunes durante la recuperación de un trastorno alimentario, pero hay muchas formas de manejarlas. ¿Te gustaría hablar sobre cómo manejar las recaídas durante tu recuperación?"
+      ]
+    },
+    {
+      "tag": "trauma",
+      "patterns": [
+        "He experimentado un evento traumático, ¿cómo puedo lidiar con las secuelas?",
+        "¿Cómo puedo saber si he sufrido un trauma?",
+        "¿Qué tratamientos están disponibles para el trauma?",
+        "¿Es posible superar el trauma?",
+        "¿Cómo puedo ayudar a alguien que ha sufrido un trauma?",
+        "¿Qué debo hacer si creo que estoy sufriendo de estrés postraumático?",
+        "¿Cómo afecta el trauma a la salud mental?",
+        "¿Cómo puedo prevenir el trauma?"
+      ],
+      "responses": [
+        "Lidiar con las secuelas de un evento traumático puede ser difícil, pero hay muchos tratamientos y técnicas que pueden ayudarte a sanar. ¿Te gustaría hablar sobre cómo lidiar con el trauma?",
+        "Hay muchos síntomas que pueden indicar que has sufrido un trauma, desde las pesadillas hasta los flashbacks. ¿Quieres hablar sobre cómo saber si has sufrido un trauma?",
+        "Hay muchos tratamientos disponibles para el trauma, desde la terapia de exposición hasta la terapia cognitivo-conductual. ¿Te gustaría hablar sobre estos tratamientos?",
+        "Sí, es posible superar el trauma con el tratamiento adecuado y el apoyo. ¿Te gustaría hablar sobre cómo puedes comenzar tu camino hacia la recuperación?",
+        "Ayudar a alguien que ha sufrido un trauma puede ser difícil, pero hay muchas formas de apoyar a alguien que está luchando con las secuelas de un evento traumático. ¿Quieres hablar sobre cómo puedes ayudar a alguien que ha sufrido un trauma?",
+        "Si crees que estás sufriendo de estrés postraumático, es importante buscar ayuda profesional. ¿Quieres hablar sobre qué hacer si crees que estás sufriendo de estrés postraumático?",
+        "El trauma puede tener muchos efectos en la salud mental, desde la ansiedad hasta la depresión. ¿Quieres hablar sobre cómo el trauma puede afectar la salud mental?",
+        "Hay muchas cosas que puedes hacer para prevenir el trauma, desde tomar medidas de seguridad hasta buscar apoyo emocional. ¿Quieres hablar sobre cómo puedes prevenir el trauma?"
+      ]
+    },
+    {
+      "tag": "adicciones",
+      "patterns": [
+        "Creo que tengo una adicción, ¿cómo puedo obtener ayuda?",
+        "¿Qué tipos de adicciones existen?",
+        "¿Qué tratamientos están disponibles para las adicciones?",
+        "¿Es posible superar una adicción?",
+        "¿Cómo puedo ayudar a alguien que tiene una adicción?",
+        "¿Qué debo hacer si creo que alguien que conozco tiene una adicción?",
+        "¿Cómo afectan las adicciones a la vida diaria?",
+        "¿Cómo puedo prevenir las adicciones?"
+      ],
+      "responses": [
+        "Obtener ayuda para una adicción puede ser difícil, pero hay muchos tratamientos y recursos que pueden ayudarte a recuperarte. ¿Te gustaría hablar sobre cómo obtener ayuda para tu adicción?",
+        "Existen muchos tipos de adicciones, desde las adicciones a sustancias químicas hasta las adicciones comportamentales como el juego. ¿Quieres hablar sobre los diferentes tipos de adicciones?",
+        "Hay muchos tratamientos disponibles para las adicciones, desde la terapia hasta los programas de rehabilitación. ¿Te gustaría hablar sobre los diferentes tratamientos?",
+        "Sí, es posible superar una adicción con el tratamiento adecuado y el apoyo. ¿Te gustaría hablar sobre cómo comenzar tu camino hacia la recuperación?",
+        "Ayudar a alguien que tiene una adicción puede ser difícil, pero hay muchas formas de apoyar a alguien que está luchando contra una adicción. ¿Quieres hablar sobre cómo puedes ayudar a alguien que tiene una adicción?",
+        "Si crees que alguien que conoces tiene una adicción, es importante buscar ayuda profesional. ¿Quieres hablar sobre qué hacer si crees que alguien que conoces tiene una adicción?",
+        "Las adicciones pueden afectar a muchos aspectos de la vida diaria, desde las relaciones hasta la salud física. ¿Quieres hablar sobre cómo las adicciones pueden afectar la vida diaria?",
+        "Hay muchas cosas que puedes hacer para prevenir las adicciones, desde evitar las sustancias adictivas hasta buscar apoyo emocional. ¿Quieres hablar sobre cómo puedes prevenir las adicciones?"
+      ]
     }
   ]
 }
-
-
